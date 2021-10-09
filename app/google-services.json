@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "650361766164",
+    "firebase_url": "https://daproperty-1e6e8-default-rtdb.firebaseio.com",
+    "project_id": "daproperty-1e6e8",
+    "storage_bucket": "daproperty-1e6e8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:650361766164:android:b4f56fc1e4dc54e3be8201",
+        "android_client_info": {
+          "package_name": "com.example.baliapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "650361766164-198klld42nn8ollpa0anc9imsjs7ijuk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeFfmJASislJVIVUXstGY-yFhJ7IrOwTc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "650361766164-198klld42nn8ollpa0anc9imsjs7ijuk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

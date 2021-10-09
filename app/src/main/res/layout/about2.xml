@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    tools:context=".about2"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="14dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp">
+
+
+                    <ImageView
+                        android:layout_width="81dp"
+                        android:layout_height="130dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/rmh2"
+                         />
+
+                    <TextView
+                        android:id="@+id/dance1"
+                        android:layout_width="250dp"
+                        android:layout_height="107dp"
+                        android:layout_marginLeft="5dp"
+                        android:fontFamily="@font/xaxa"
+                        android:text="Da' Store"
+                        android:textColor="#F06A90B5"
+                        android:textSize="54dp" />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="56dp">
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/pe1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:fontFamily="@font/roboto_regular"
+                    android:text="She Wear is a application to buy women clothes. Developed on an area of ​​2.5 hectares, DA Store Recidence will become a new classy residence in the city of Bekasi. With a strategic location beside the Jalan Raya Perjuangan which is very close to life support facilities such as: mall,school and hospital"
+                    android:textColor="#00008B" />
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <VideoView
+                        android:layout_marginTop="20dp"
+                        android:layout_gravity="center"
+                        android:id="@+id/video_view"
+                        android:layout_width="429dp"
+                        android:layout_height="514dp" />
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+
+</LinearLayout>
+</LinearLayout>
